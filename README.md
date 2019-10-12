@@ -4,4 +4,4 @@ This module is used by the PineTab and PinePhone for WiFi and Bluetooth communic
 
 ## Mer OBS
 
-This package is build on Mer OBS: https://build.merproject.org/package/show/nemo:devel:hw:pine:dontbeevil/realtek-bt-firmware
+This package is built on Mer OBS: https://build.merproject.org/package/show/nemo:devel:hw:pine:dontbeevil/realtek-bt-firmware
