@@ -6,8 +6,8 @@ Group:      System/Firmware
 License:    Redistributable
 URL:        https://github.com/anarsoul/rtl8723bt-firmware
 Source0:     %{name}-%{version}.tar.bz2
-Source1:    rtl8723bs_config-pine64.bin
-Source2:    rtl8723cs_xx_config-pinebook.bin
+Source1:    rtl8723bs_config.bin
+Source2:    rtl8723cs_xx_config.bin
 Source3:    rtl8723cs_xx_fw.bin
 
 %description
