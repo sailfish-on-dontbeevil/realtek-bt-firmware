@@ -27,6 +27,7 @@ ls -lR .
 mkdir -p $RPM_BUILD_ROOT/lib/firmware/rtl_bt/
 cp %{SOURCE1} $RPM_BUILD_ROOT/lib/firmware/rtl_bt/
 cp %{SOURCE2} $RPM_BUILD_ROOT/lib/firmware/rtl_bt/
+ln -s /lib/firmware/rtl_bt/%{SOURCE2} $RPM_BUILD_ROOT/lib/firmware/rtl_bt/rtl8723cs_xx_config-pinephone.bin
 cp %{SOURCE3} $RPM_BUILD_ROOT/lib/firmware/rtl_bt/
 
 %files
